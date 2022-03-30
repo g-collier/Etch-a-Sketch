@@ -1,0 +1,96 @@
+html, body {
+	margin: 0px;
+	padding: 0px;
+	height: 100%;
+}
+.content {
+	background-color: #C0D8C0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100%;
+	
+}
+.etchBody {
+	display: flex;
+	height: 80%;
+	width: 75%;
+	background-color: #DD4A48;
+	border-radius: 5%;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+	
+}
+.etchTitle {
+	height: 10%;
+	width: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.etchTitle h2 {
+	font-family:cursive;
+	color: #ECB390;
+}
+.etchScreen {
+	flex: 5;
+	border-radius: 5%;
+	width: 70%;
+	display: flex;
+}
+#drawHere {
+	
+	background-color: #F5EEDC;
+	border-radius: 5%;
+	flex: 1;
+}
+.etchButtons {
+	flex: 2;
+	display: flex;
+	width: 100%;
+	border-radius: 5%;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+}
+
+#buttonLeft {
+	background-color: #F5EEDC;
+	height: 100px;
+	width: 100px;
+	border-radius: 50%;
+	margin-left: 50px;
+	
+
+}
+.clearCanvas {
+	height: 50px;
+	width: 130px;
+	
+	
+}
+
+#clearButton {
+	background-color: #DD4A48;
+	color: #ECB390;
+	font-family: cursive;
+	font-size: large;
+	border: 1px solid #cac3b2;
+	border-radius: 5%;
+	font-weight: bold;
+	
+}
+#clearButton:active {
+	background-color: #d14a47;
+	transform: translateY(3px);
+}
+
+#buttonRight {
+	background-color: #F5EEDC;
+	height: 100px;
+	width: 100px;
+	border-radius: 50%;
+	box-shadow: inset;
+	margin-right: 50px;
+}
